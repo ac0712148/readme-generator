@@ -17,7 +17,7 @@ module.exports = function generateMarkdown(data, answers) {
   ## Description
   ${answers.description}
   
-  ## Installation
+  ## Installation and Dependencies
   ${answers.installDepend}
   
   ## Usage
@@ -33,7 +33,7 @@ module.exports = function generateMarkdown(data, answers) {
   ${answers.testCommand}
   
   # Questions
-  ![${login} avatar](${avatar_url}  =250x250)\n
+  ![${login} avatar](${avatar_url})\n
   Any questions, feel free to email me at: ${email}\n
 
   More to Come in the future...
