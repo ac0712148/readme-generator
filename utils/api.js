@@ -1,9 +1,10 @@
+
 const axios = require("axios");
 const api = {
-  getUser(username) {
-    const url = `https://api.github.com/users/${username}`;
+  getUser(data) {
+    const url = `https://api.github.com/users/${data.username}`;
     console.log("Searching...\n");
-    return axios.get(url);
+    return axios.get(url);;
   }
 };
 
