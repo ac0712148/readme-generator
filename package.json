@@ -1,7 +1,7 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "Dynamically generates a README from user input",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,13 @@
     "axios": "^0.19.0",
     "dotenv": "^8.0.0",
     "inquirer": "^6.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ac0712148/readme-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ac0712148/readme-generator/issues"
+  },
+  "homepage": "https://github.com/ac0712148/readme-generator#readme"
 }
